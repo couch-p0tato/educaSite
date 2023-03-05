@@ -442,6 +442,7 @@ footer ul li:hover {
     }
 
     .nav-menu {
+        display: none;
         position: fixed;
         top: 5rem;
         right: 5%;
@@ -449,7 +450,6 @@ footer ul li:hover {
         width: 18rem;
         flex-direction: column;
         gap: 0;
-        display: none;
     }
 
     .nav-menu li {
@@ -478,7 +478,7 @@ footer ul li:hover {
         }
 
         100% {
-            transform: rotateZ(0deg) rotateX(90deg) scale(0.1);
+            transform: rotateZ(0) rotateX(0) scale(1);
             opacity: 1;
         }
     }
